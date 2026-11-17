@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghid HTML - Elemente și Tabele</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Ghidul Începătorului: Cum se folosește HTML & CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="elemente.html" class="active">Elemente & Tabele</a></li>
+                <li><a href="stilizare.html">Stilizare CSS & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Ghid de tag-uri uzuale</h2>
+            <p>Mai jos este prezentat un tabel cu cele mai importante tag-uri HTML folosite în structurarea paginilor:</p>
+
+            <!-- TABEL HTML -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag HTML</th>
+                        <th>Descriere</th>
+                        <th>Tip Element</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>&lt;h1&gt; - &lt;h6&gt;</code></td>
+                        <td>Titluri de diferite dimensiuni</td>
+                        <td>Block</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;p&gt;</code></td>
+                        <td>Alineat / Paragraf de text</td>
+                        <td>Block</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;a&gt;</code></td>
+                        <td>Hyperlink (legătură către altă pagină)</td>
+                        <td>Inline</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;img&gt;</code></td>
+                        <td>Inserare imagine</td>
+                        <td>Inline-block</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="card">
+            <h2>Test de cunoștințe HTML</h2>
+            <p>Completează formularul de mai jos pentru a trimite un răspuns:</p>
+
+            <!-- FORMULAR HTML -->
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nume">Nume și Prenume:</label>
+                    <input type="text" id="nume" name="nume" placeholder="Ex: Popescu Ion" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="nivel">Nivelul tău actual în HTML:</label>
+                    <select id="nivel" name="nivel">
+                        <option value="incepator">Începător</option>
+                        <option value="intermediar">Intermediar</option>
+                        <option value="avansat">Avansat</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mesaj">Ce tag ți se pare cel mai util?</label>
+                    <textarea id="mesaj" name="mesaj" rows="4" placeholder="Scrie părerea ta..."></textarea>
+                </div>
+
+                <button type="submit">Trimite Răspunsul</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Proiect Web - Învățare HTML. Toate drepturile rezervate.</p>
+    </footer>
+
+</body>
+</html>
